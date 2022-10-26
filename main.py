@@ -1,4 +1,5 @@
 import math
+import os,sys
 import cv2 
 import numpy as np
 def Yituosi(img):
@@ -8,13 +9,13 @@ def Yituosi(img):
     r=width/6.2831
     for i in range(-500,500):
         for j in range(-500,500):
-            t=math.sqrt((i*i+j*j)/(r*r))
+            t=math.sqrt((4*i*i+4*j*j)/(r*r))
             z=(1-t)*r/(1+t)
             if abs(z)>r:
                 continue
             k=z/r
-            x=(r+z)*i/r
-            y=(r+z)*j/r
+            x=(r+z)*2*i/r
+            y=(r+z)*2*j/r
             v=math.acos(k)
             u=math.atan2(j,i)
             if u<0:
@@ -26,7 +27,7 @@ def Yituosi(img):
             img_out[-i+500][j+500]=img[yy][xx]
     return img_out        
 
-
+os.chdir(sys.path[0])
 im=input("图片名称：\n")
 img = cv2.imread(im)
 img_out=Yituosi(img)
