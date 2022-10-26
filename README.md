@@ -1,5 +1,6 @@
 # 说的道理生成器
 
+
 ## 简介
 
 基于python的简单朴素的说的道理生成器
@@ -11,6 +12,18 @@
 + 运行**你是说的道理.exe**
 
 + 输入图片名称
+
+**示例：**
+<img src=https://user-images.githubusercontent.com/53858652/197927507-6f678499-eb2a-42f0-84e1-d1d800aafb1a.png width=500 height=300 />
+
+输入图片：otto.png
+
+<img src=https://user-images.githubusercontent.com/53858652/197927631-4f80a80e-338e-4f7a-8a43-08dbeb29bfdc.png width=400 height=300 />
+
+结果
+
+<img src=https://user-images.githubusercontent.com/53858652/197927635-ae546ce4-5855-4e86-8bf2-6925aa0ec714.png width=300 height=300 />
+
 
 ## 原理
 
