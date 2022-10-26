@@ -120,8 +120,9 @@ def Yituosi(img):
 ~~~
 
 ## 更新
-~~~~~~~~~~
+----------------
 对投影后的坐标进行一个缩放，使得图片可以笼罩更大的范围
+
 $$
 \begin{align}
 令
@@ -129,6 +130,7 @@ x''=2*x' \\
 y''=2*y'
 \end{align}
 $$
+
 更新后的代码
 ~~~python
 def Yituosi(img):
@@ -156,3 +158,7 @@ def Yituosi(img):
             img_out[-i+500][j+500]=img[yy][xx]
     return img_out 
 ~~~
+
+效果：
+![屏幕截图 2022-10-26 112911](https://user-images.githubusercontent.com/53858652/197933904-563c1275-d16a-4a19-8c97-fee43a80d50e.png)
+
