@@ -160,5 +160,6 @@ def Yituosi(img):
 ~~~
 
 效果：
-![屏幕截图 2022-10-26 112911](https://user-images.githubusercontent.com/53858652/197933904-563c1275-d16a-4a19-8c97-fee43a80d50e.png)
+![Yituosi-otto](https://user-images.githubusercontent.com/53858652/197933961-6d58b0d2-7f7a-40df-a589-88df8b5df331.png)
+
 
